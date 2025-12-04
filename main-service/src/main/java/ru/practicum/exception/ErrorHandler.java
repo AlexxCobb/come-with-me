@@ -46,7 +46,6 @@ public class ErrorHandler {
     @Getter
     private static class ErrorResponse {
         String error;
-
         public ErrorResponse(String error) {
             this.error = error;
         }
